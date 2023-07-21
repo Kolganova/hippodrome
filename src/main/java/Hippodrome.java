@@ -11,7 +11,8 @@ public class Hippodrome {
     public Hippodrome(List<Horse> horses) {
         if (isNull(horses)) {
             throw new IllegalArgumentException("Horses cannot be null.");
-        } else if (horses.isEmpty()) {
+        }
+        else if (horses.isEmpty()) {
             throw new IllegalArgumentException("Horses cannot be empty.");
         }
 

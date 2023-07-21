@@ -125,7 +125,7 @@ public class HorseTest {
             Horse horse = new Horse("TestName", speed, distance);
             mockStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(random);
             horse.move();
-            assertEquals(speed + distance * random, horse.getDistance());
+            assertEquals(distance + speed * random, horse.getDistance());
         }
     }
 
