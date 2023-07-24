@@ -69,7 +69,7 @@ public class HippodromeTest {
     }
 
     @Test
-    public void whenGetWinner_then_the_biggest_distance_horse_returns() {
+    public void whenGetWinner_the_horse_with_the_biggest_distance_returns() {
         Horse horse1 = new Horse("Horse1", 100, 30);
         Horse horse2 = new Horse("Horse2", 60, 50);
         Horse horse3 = new Horse("Horse3", 110, 92);
